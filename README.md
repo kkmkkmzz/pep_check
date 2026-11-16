@@ -14,14 +14,23 @@ Python 3.10 or later with `numpy` and `matplotlib` (`pip install -r requirements
 cd emulator
 python3 run_experiments.py      # E1 trigger, E3 scalability (and the earlier-rule E2/E4 runs) -> results/        ~40 s
 python3 run_experiments2.py     # E2 containment, E4 sensitivity, E5 integrated run (current rules) -> results_v2/ ~60 s
-python3 figures_v2.py           # Figures 1-7 -> figs_v2/ (.eps for submission, .png)
+python3 figures_submitted.py    # checks every value shown in the submitted Figures 2, 4-7 and redraws them -> out/figs_submitted/
+python3 figures_v2.py           # earlier draft layout of Figures 1-7 -> figs_v2/ (same data, see "Figures" below)
 python3 verify.py               # reproducibility across hash seeds, property tests of Lemma 1 and Propositions 1-3, worked cases
 python3 check_manuscript.py     # every emulator-derived number of the manuscript (Tables 9-13, Sects. 10.4-10.7, closed forms)
 cd ..
 python3 measurements/check_measurements.py   # every live-measurement number of Sect. 4 (Tables 3-5, Sect. 4.5)
 ```
 
-`check_manuscript.py` and `check_measurements.py` exit non-zero if any value differs from the manuscript. At the time of release both report no mismatch (152 and 49 checks).
+`check_manuscript.py`, `check_measurements.py` and `figures_submitted.py` exit non-zero if any value differs from the manuscript. At the time of release none reports a mismatch (152, 49 and 29 checks).
+
+## Figures
+
+`figures_submitted/Fig1.png`-`Fig7.png` are the figures exactly as they appear in the submitted manuscript (extracted unchanged from the submitted .docx). They were drawn as editable charts from the values reported in the tables and the text. `emulator/figures_submitted.py` recomputes every value these figures display from the result files of this repository, checks it against the figure, writes the values to `emulator/figure_values.json`, and redraws the data figures (2, 4-7) in the same layout; the redraw has the same content but is not pixel-identical. Figures 1 and 3 are diagrams without data.
+
+`emulator/figs_v2/` and `figures_v2.py` are an earlier draft layout produced directly from the same result files; they show the same quantities (Fig. 4b, 4c and 7 there also show the intermediate sweep points, which the submitted figures summarise by the end points reported in Sects. 10.4 and 10.7).
+
+Rounding notes. In Fig. 2a the baseline bar for new connections is drawn at 194 of 195 exchanges (99.5 %) and labelled 100. Two values that lie exactly on a rounding boundary are rounded in different directions in the text: 9,755 of 10,000 (97.55 %, Table 10, A2, shown as 97.5) and 0.2225 (Sect. 10.4, shown as 22.3 %). The underlying counts are in the result files.
 
 ## Layout
 
@@ -36,7 +45,9 @@ python3 measurements/check_measurements.py   # every live-measurement number of 
 | `emulator/tools_numbers.py` | Prints the rows of Tables 10-13 and the numbers of Sects. 10.5-10.7 | |
 | `emulator/check_manuscript.py` | Asserts the manuscript values against the result files | |
 | `emulator/results/`, `results_v2/` | Result files used in the manuscript (`results_v2/` for Sect. 10.5-10.7, `results/` for E1 and E3) | |
-| `emulator/figs_v2/` | Figures 1-7 as submitted | |
+| `figures_submitted/` | Figures 1-7 exactly as in the submitted manuscript | Figs. 1-7 |
+| `emulator/figures_submitted.py`, `figure_values.json` | Values shown in the submitted figures, recomputed and checked; redraw in the submitted layout | Figs. 2, 4-7 |
+| `emulator/figs_v2/` | Earlier draft layout of Figures 1-7 from `figures_v2.py` (same data) | |
 | `emulator/aws/` | Initial live run (EXP-004/005): traffic generator `m.py`, sandbox analysis `analyze.py`, `build_summary.py`, aggregates `sandbox_output.json`, `measure_summary.json` (also the emulator's delay calibration, p05 = 40 s, p95 = 306 s), phase timestamps `state.json` | Sect. 4.2, Table 3, Fig. 2 |
 | `measurements/exp006_a1/` | Repeated run: instance agent `agent.py`, phase controller `ctl_template.py`, sandbox analyses `a1_final_body.py`, `fl_body_v2.py` (with the pure-Python inflate helpers `pyinflate.py`), phase log `phases.jsonl`, console and flow-log aggregates in `results/` | Sect. 4.3, Table 4 |
 | `measurements/exp008_attribution/` | Attribution run: phase timestamps, console counts per 10 s and per phase, flow-log aggregates with reject reason, traffic path and TCP flags | Sect. 4.4, Table 5 |
