@@ -1,0 +1,25 @@
+{"rep":1,"act":"base","t_tag":1794323231.4,"t_change1":1794323226.9,"ra":{"other":"<NIANALYSIS_01>","same":"<NIANALYSIS_02>"}}
+{"rep":1,"act":"sg","t_change0":1794323294.94,"t_change1":1794323298.91,"t_tag":1794323300.47,"ra":{"other":"<NIANALYSIS_03>","same":"<NIANALYSIS_04>"},"ra_base_result":[["<NIANALYSIS_01>","succeeded",true],["<NIANALYSIS_02>","succeeded",true]],"note":"base-1 lasted only 63 s (operator error); Ti flows may not have opened in rep 1"}
+{"rep":1,"act":"nacl","t_change0":1794323527.23,"t_change1":1794323536.89,"t_tag":1794323538.63,"ra_sg_result":[["<NIANALYSIS_03>","succeeded",false,["ENI_SG_RULES_MISMATCH"]],["<NIANALYSIS_04>","succeeded",false,["ENI_SG_RULES_MISMATCH"]]],"note":"sg-1 lasted 227 s instead of 300 s"}
+{"rep":1,"act":"rev","t_change0":1794323731.06,"t_change1":1794323740.87,"t_tag":1794323742.34,"nacl_removed":24}
+{"rep":1,"act":"route","t_change0":1794323871.76,"t_change1":1794323873.49,"t_tag":1794323875.10}
+{"rep":2,"act":"base","t_change0":1794324071.18,"t_change1":1794324077.71,"t_tag":1794324082.12,"routes_removed":2}
+{"rep":2,"act":"sg","t_change0":1794324272.15,"t_change1":1794324275.95,"t_tag":1794324277.40,"ra":{"other":"<NIANALYSIS_05>","same":"<NIANALYSIS_06>"}}
+{"rep":2,"act":"nacl","t_change0":1794324589.37,"t_change1":1794324599.16,"t_tag":1794324600.82,"ra_sg_result":[["<NIANALYSIS_05>","succeeded",false,["ENI_SG_RULES_MISMATCH"]],["<NIANALYSIS_06>","succeeded",false,["ENI_SG_RULES_MISMATCH"]]]}
+{"rep":2,"act":"rev","t_change0":1794324790.81,"t_change1":1794324800.49,"t_tag":1794324801.98,"nacl_removed":24}
+{"rep":2,"act":"route","t_change0":1794324930.94,"t_change1":1794324932.66,"t_tag":1794324934.12}
+{"rep":3,"act":"base","t_change0":1794325129.28,"t_change1":1794325134.76,"t_tag":1794325139.15,"routes_removed":2}
+{"rep":3,"act":"sg","t_change0":1794325326.98,"t_change1":1794325331.20,"t_tag":1794325332.81}
+{"rep":3,"act":"nacl","t_change0":1794325643.19,"t_change1":1794325653.00,"t_tag":1794325654.72}
+{"rep":3,"act":"rev","t_change0":1794325845.03,"t_change1":1794325854.74,"t_tag":1794325856.17,"nacl_removed":24}
+{"rep":3,"act":"route","t_change0":1794325986.41,"t_change1":1794325989.40,"t_tag":1794325991.01}
+{"rep":4,"act":"base","t_change0":1794326186.65,"t_change1":1794326193.25,"t_tag":1794326197.65,"routes_removed":2}
+{"rep":4,"act":"sg","t_change0":1794326384.47,"t_change1":1794326388.47,"t_tag":1794326389.93}
+{"rep":4,"act":"nacl","t_change0":1794326701.27,"t_change1":1794326711.02,"t_tag":1794326713.15}
+{"rep":4,"act":"rev","t_change0":1794326903.27,"t_change1":1794326913.08,"t_tag":1794326914.56,"nacl_removed":24}
+{"rep":4,"act":"route","t_change0":1794327043.64,"t_change1":1794327046.62,"t_tag":1794327048.08}
+{"rep":5,"act":"base","t_change0":1794327244.07,"t_change1":1794327250.41,"t_tag":1794327254.99,"routes_removed":2}
+{"rep":5,"act":"sg","t_change0":1794327561.50,"t_change1":1794327565.65,"t_tag":1794327567.30}
+{"rep":5,"act":"nacl","t_change0":1794327882.41,"t_change1":1794327892.07,"t_tag":1794327893.81}
+{"rep":5,"act":"rev","t_change0":1794328084.26,"t_change1":1794328094.31,"t_tag":1794328096.28,"nacl_removed":24}
+{"rep":5,"act":"route","t_change0":1794328226.58,"t_change1":1794328228.23,"t_tag":1794328229.87}

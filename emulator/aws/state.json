@@ -1,0 +1,35 @@
+{
+ "region": "ap-northeast-2",
+ "vpc": "<VPC_01>",
+ "subnetA": "<SUBNET_01>",
+ "subnetB": "<SUBNET_02>",
+ "naclA": "<ACL_01>",
+ "naclB": "<ACL_02>",
+ "sgWork": "<SG_01>",
+ "sgIso": "<SG_02>",
+ "bucket": "<BUCKET_01>",
+ "flowlog": "<FLOWLOG_01>",
+ "X": {
+  "instance": "<INSTANCE_01>",
+  "eni": "<ENI_01>",
+  "ip": "10.77.1.10"
+ },
+ "P1": {
+  "instance": "<INSTANCE_02>",
+  "eni": "<ENI_02>",
+  "ip": "10.77.2.10"
+ },
+ "P2": {
+  "instance": "<INSTANCE_03>",
+  "eni": "<ENI_03>",
+  "ip": "10.77.1.20"
+ },
+ "t_launch_X_P1_utc": "2026-11-10T12:03:22Z",
+ "t_launch_P2_epoch": 1794312249,
+ "T1_sg_swap_epoch": 1794312930.39,
+ "T1_ack_epoch": 1794312931.96,
+ "T2_nacl_deny_epoch": 1794313755.25,
+ "T2_ack_epoch": 1794313757.65,
+ "T3_stop_epoch": 1794314262.86,
+ "cleanup": "all compute and network resources and the flow log deleted on 2026-11-10; bucket with raw flow-log objects retained"
+}

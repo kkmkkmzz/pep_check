@@ -1,0 +1,68 @@
+{
+ "iam_closure": [
+  {
+   "edges": 300,
+   "ms_median": 0.036,
+   "reached": 97,
+   "roles": 100
+  },
+  {
+   "edges": 3000,
+   "ms_median": 0.342,
+   "reached": 946,
+   "roles": 1000
+  },
+  {
+   "edges": 30000,
+   "ms_median": 5.406,
+   "reached": 9414,
+   "roles": 10000
+  },
+  {
+   "edges": 300000,
+   "ms_median": 150.284,
+   "reached": 94053,
+   "roles": 100000
+  }
+ ],
+ "platform": {
+  "cores_used": 1,
+  "python": "3.13.18"
+ },
+ "selection": [
+  {
+   "candidates": 10,
+   "ms_median": 0.007
+  },
+  {
+   "candidates": 100,
+   "ms_median": 0.057
+  },
+  {
+   "candidates": 1000,
+   "ms_median": 0.636
+  },
+  {
+   "candidates": 10000,
+   "ms_median": 6.246
+  }
+ ],
+ "share_trigger": [
+  {
+   "ms_median": 0.109,
+   "sources": 95
+  },
+  {
+   "ms_median": 0.945,
+   "sources": 1000
+  },
+  {
+   "ms_median": 18.358,
+   "sources": 9948
+  },
+  {
+   "ms_median": 203.637,
+   "sources": 100000
+  }
+ ]
+}

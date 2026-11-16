@@ -1,0 +1,901 @@
+{
+ "documented_log_delay": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.306,
+   "avoidable_stops_per_incident": 0.0175,
+   "declared": {
+    "EFFECTIVE": 0.9455,
+    "EFFECTIVE_PARTIAL": 0.038,
+    "UNRESOLVED": 0.0165
+   },
+   "false_effective": 0.0545,
+   "false_effective_ci": [
+    0.0454,
+    0.0653
+   ],
+   "mean_api_calls": 16.51,
+   "mean_exposure_min": 16.72,
+   "mean_log_queries": 34.55,
+   "mean_probes": 7.26,
+   "mean_rounds": 1.115,
+   "median_t_effective_s": 962.0,
+   "n": 2000,
+   "p95_t_effective_s": 3289.7272542199535,
+   "residual_exposure": 0.096,
+   "stops_per_incident": 0.2565
+  },
+  "FULL": {
+   "approvals_per_incident": 0.3465,
+   "avoidable_stops_per_incident": 0.026,
+   "declared": {
+    "EFFECTIVE": 0.9265,
+    "EFFECTIVE_PARTIAL": 0.0505,
+    "UNRESOLVED": 0.023
+   },
+   "false_effective": 0.0005,
+   "false_effective_ci": [
+    0.0001,
+    0.0028
+   ],
+   "mean_api_calls": 15.28,
+   "mean_exposure_min": 14.69,
+   "mean_log_queries": 32.9,
+   "mean_probes": 5.93,
+   "mean_rounds": 0.994,
+   "median_t_effective_s": 962.0,
+   "n": 2000,
+   "p95_t_effective_s": 3211.510195286331,
+   "residual_exposure": 0.0645,
+   "stops_per_incident": 0.291
+  }
+ },
+ "iam_miss": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.022,
+    "false_effective": 0.293,
+    "residual_exposure": 0.317,
+    "stops_per_incident": 0.019,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.343,
+    "false_effective": 0.0,
+    "residual_exposure": 0.063,
+    "stops_per_incident": 0.295,
+    "unresolved": 0.024
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.05
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.341,
+    "false_effective": 0.002,
+    "residual_exposure": 0.065,
+    "stops_per_incident": 0.293,
+    "unresolved": 0.024
+   },
+   "value": 0.1
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.02,
+    "false_effective": 0.295,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.023
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.341,
+    "false_effective": 0.003,
+    "residual_exposure": 0.065,
+    "stops_per_incident": 0.293,
+    "unresolved": 0.024
+   },
+   "value": 0.2
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.018,
+    "false_effective": 0.297,
+    "residual_exposure": 0.32,
+    "stops_per_incident": 0.016,
+    "unresolved": 0.023
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.338,
+    "false_effective": 0.008,
+    "residual_exposure": 0.067,
+    "stops_per_incident": 0.291,
+    "unresolved": 0.025
+   },
+   "value": 0.4
+  }
+ ],
+ "late": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.345,
+    "false_effective": 0.004,
+    "residual_exposure": 0.065,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.042
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.343,
+    "false_effective": 0.0,
+    "residual_exposure": 0.063,
+    "stops_per_incident": 0.295,
+    "unresolved": 0.024
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.324,
+    "false_effective": 0.029,
+    "residual_exposure": 0.079,
+    "stops_per_incident": 0.276,
+    "unresolved": 0.029
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.25
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.287,
+    "false_effective": 0.076,
+    "residual_exposure": 0.107,
+    "stops_per_incident": 0.244,
+    "unresolved": 0.009
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.341,
+    "false_effective": 0.002,
+    "residual_exposure": 0.065,
+    "stops_per_incident": 0.293,
+    "unresolved": 0.024
+   },
+   "value": 0.75
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.268,
+    "false_effective": 0.098,
+    "residual_exposure": 0.121,
+    "stops_per_incident": 0.228,
+    "unresolved": 0.0
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.34,
+    "false_effective": 0.003,
+    "residual_exposure": 0.066,
+    "stops_per_incident": 0.292,
+    "unresolved": 0.024
+   },
+   "value": 1.0
+  }
+ ],
+ "p_approve": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.062,
+    "residual_exposure": 0.185,
+    "stops_per_incident": 0.154,
+    "unresolved": 0.046
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.327,
+    "stops_per_incident": 0.009,
+    "unresolved": 0.033
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.002,
+    "residual_exposure": 0.171,
+    "stops_per_incident": 0.168,
+    "unresolved": 0.036
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.053,
+    "residual_exposure": 0.124,
+    "stops_per_incident": 0.222,
+    "unresolved": 0.028
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.323,
+    "stops_per_incident": 0.013,
+    "unresolved": 0.029
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.103,
+    "stops_per_incident": 0.246,
+    "unresolved": 0.03
+   },
+   "value": 0.7
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.85
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.044,
+    "residual_exposure": 0.054,
+    "stops_per_incident": 0.309,
+    "unresolved": 0.01
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.315,
+    "stops_per_incident": 0.021,
+    "unresolved": 0.021
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.022,
+    "stops_per_incident": 0.342,
+    "unresolved": 0.021
+   },
+   "value": 1.0
+  }
+ ],
+ "reach_sg": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.289,
+    "false_effective": 0.033,
+    "residual_exposure": 0.074,
+    "stops_per_incident": 0.244,
+    "unresolved": 0.014
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.01,
+    "false_effective": 0.265,
+    "residual_exposure": 0.287,
+    "stops_per_incident": 0.009,
+    "unresolved": 0.022
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.618,
+    "residual_exposure": 0.618,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.311,
+    "false_effective": 0.0,
+    "residual_exposure": 0.057,
+    "stops_per_incident": 0.266,
+    "unresolved": 0.022
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.301,
+    "false_effective": 0.044,
+    "residual_exposure": 0.086,
+    "stops_per_incident": 0.255,
+    "unresolved": 0.019
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.017,
+    "false_effective": 0.284,
+    "residual_exposure": 0.307,
+    "stops_per_incident": 0.015,
+    "unresolved": 0.023
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.678,
+    "residual_exposure": 0.678,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.331,
+    "false_effective": 0.001,
+    "residual_exposure": 0.061,
+    "stops_per_incident": 0.284,
+    "unresolved": 0.023
+   },
+   "value": 0.15
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.328,
+    "false_effective": 0.072,
+    "residual_exposure": 0.117,
+    "stops_per_incident": 0.277,
+    "unresolved": 0.027
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.035,
+    "false_effective": 0.323,
+    "residual_exposure": 0.35,
+    "stops_per_incident": 0.029,
+    "unresolved": 0.027
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.851,
+    "residual_exposure": 0.851,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.372,
+    "false_effective": 0.002,
+    "residual_exposure": 0.071,
+    "stops_per_incident": 0.32,
+    "unresolved": 0.027
+   },
+   "value": 0.6
+  }
+ ],
+ "tracked": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.177,
+    "false_effective": 0.067,
+    "residual_exposure": 0.091,
+    "stops_per_incident": 0.144,
+    "unresolved": 0.021
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.162,
+    "residual_exposure": 0.186,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.364,
+    "residual_exposure": 0.364,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.246,
+    "false_effective": 0.003,
+    "residual_exposure": 0.045,
+    "stops_per_incident": 0.208,
+    "unresolved": 0.024
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.238,
+    "false_effective": 0.054,
+    "residual_exposure": 0.089,
+    "stops_per_incident": 0.2,
+    "unresolved": 0.021
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.219,
+    "residual_exposure": 0.243,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.548,
+    "residual_exposure": 0.548,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.283,
+    "false_effective": 0.002,
+    "residual_exposure": 0.056,
+    "stops_per_incident": 0.241,
+    "unresolved": 0.024
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.6
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.387,
+    "false_effective": 0.041,
+    "residual_exposure": 0.094,
+    "stops_per_incident": 0.329,
+    "unresolved": 0.023
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.367,
+    "residual_exposure": 0.391,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.934,
+    "residual_exposure": 0.934,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.395,
+    "false_effective": 0.001,
+    "residual_exposure": 0.074,
+    "stops_per_incident": 0.341,
+    "unresolved": 0.024
+   },
+   "value": 0.9
+  }
+ ],
+ "v_same": [
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.363,
+    "false_effective": 0.042,
+    "residual_exposure": 0.087,
+    "stops_per_incident": 0.31,
+    "unresolved": 0.021
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.382,
+    "false_effective": 0.0,
+    "residual_exposure": 0.063,
+    "stops_per_incident": 0.331,
+    "unresolved": 0.024
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.343,
+    "false_effective": 0.047,
+    "residual_exposure": 0.09,
+    "stops_per_incident": 0.292,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.368,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.318,
+    "unresolved": 0.024
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.309,
+    "false_effective": 0.05,
+    "residual_exposure": 0.093,
+    "stops_per_incident": 0.261,
+    "unresolved": 0.022
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.342,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.294,
+    "unresolved": 0.024
+   },
+   "value": 0.7
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.281,
+    "false_effective": 0.054,
+    "residual_exposure": 0.096,
+    "stops_per_incident": 0.237,
+    "unresolved": 0.023
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.321,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.276,
+    "unresolved": 0.024
+   },
+   "value": 0.9
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_per_incident": 0.273,
+    "false_effective": 0.055,
+    "residual_exposure": 0.096,
+    "stops_per_incident": 0.23,
+    "unresolved": 0.023
+   },
+   "A2_sel_apiack": {
+    "approvals_per_incident": 0.021,
+    "false_effective": 0.294,
+    "residual_exposure": 0.318,
+    "stops_per_incident": 0.018,
+    "unresolved": 0.024
+   },
+   "B2_SG_apiack": {
+    "approvals_per_incident": 0.0,
+    "false_effective": 0.733,
+    "residual_exposure": 0.733,
+    "stops_per_incident": 0.0,
+    "unresolved": 0.0
+   },
+   "FULL": {
+    "approvals_per_incident": 0.314,
+    "false_effective": 0.001,
+    "residual_exposure": 0.064,
+    "stops_per_incident": 0.269,
+    "unresolved": 0.024
+   },
+   "value": 1.0
+  }
+ ]
+}

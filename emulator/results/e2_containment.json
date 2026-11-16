@@ -1,0 +1,2369 @@
+{
+ "S0_random_mix": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.306,
+   "avoidable_stops_per_incident": 0.0175,
+   "declared": {
+    "EFFECTIVE": 0.9455,
+    "EFFECTIVE_PARTIAL": 0.0375,
+    "UNRESOLVED": 0.017
+   },
+   "false_effective": 0.0545,
+   "false_effective_ci": [
+    0.0454,
+    0.0653
+   ],
+   "mean_api_calls": 16.51,
+   "mean_exposure_min": 15.34,
+   "mean_log_queries": 22.17,
+   "mean_probes": 7.26,
+   "mean_rounds": 1.115,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 2516.5856351665584,
+   "residual_exposure": 0.096,
+   "stops_per_incident": 0.2565
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.022,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.9775,
+    "UNRESOLVED": 0.0225
+   },
+   "false_effective": 0.301,
+   "false_effective_ci": [
+    0.2813,
+    0.3215
+   ],
+   "mean_api_calls": 14.27,
+   "mean_exposure_min": 39.11,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.3235,
+   "stops_per_incident": 0.0175
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.696,
+   "false_effective_ci": [
+    0.6755,
+    0.7158
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 83.5,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 0.696,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.751,
+   "false_effective_ci": [
+    0.7316,
+    0.7695
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 86.74,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.751,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.9835,
+    "UNRESOLVED": 0.0165
+   },
+   "false_effective": 0.7345,
+   "false_effective_ci": [
+    0.7147,
+    0.7534
+   ],
+   "mean_api_calls": 1.14,
+   "mean_exposure_min": 86.62,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.12,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 244.0,
+   "residual_exposure": 0.751,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.459,
+   "false_effective_ci": [
+    0.4373,
+    0.4809
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 52.7,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.459,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.3465,
+   "avoidable_stops_per_incident": 0.026,
+   "declared": {
+    "EFFECTIVE": 0.9265,
+    "EFFECTIVE_PARTIAL": 0.0505,
+    "UNRESOLVED": 0.023
+   },
+   "false_effective": 0.0005,
+   "false_effective_ci": [
+    0.0001,
+    0.0028
+   ],
+   "mean_api_calls": 15.28,
+   "mean_exposure_min": 13.3,
+   "mean_log_queries": 21.01,
+   "mean_probes": 5.93,
+   "mean_rounds": 0.994,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 2494.73121197218,
+   "residual_exposure": 0.0645,
+   "stops_per_incident": 0.291
+  }
+ },
+ "S10_no_independent_enforcer": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "UNRESOLVED": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 24.68,
+   "mean_exposure_min": 114.32,
+   "mean_log_queries": 19.97,
+   "mean_probes": 12.66,
+   "mean_rounds": 2.0,
+   "median_t_effective_s": null,
+   "n": 2000,
+   "p95_t_effective_s": null,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.84
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "UNRESOLVED": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 9.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": null,
+   "n": 2000,
+   "p95_t_effective_s": null,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8805,
+    "UNRESOLVED": 0.1195
+   },
+   "false_effective": 0.8805,
+   "false_effective_ci": [
+    0.8655,
+    0.894
+   ],
+   "mean_api_calls": 1.88,
+   "mean_exposure_min": 116.23,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.76,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 366.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "UNRESOLVED": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 10.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": null,
+   "n": 2000,
+   "p95_t_effective_s": null,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  }
+ },
+ "S11_no_verifier_in_target_subnet": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.8455,
+   "declared": {
+    "EFFECTIVE": 0.8455,
+    "EFFECTIVE_PARTIAL": 0.1545
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.69,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 23.76,
+   "mean_probes": 4.08,
+   "mean_rounds": 1.019,
+   "median_t_effective_s": 2009.4966019227757,
+   "n": 2000,
+   "p95_t_effective_s": 2767.6414238469015,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.8455
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.8455,
+   "declared": {
+    "EFFECTIVE": 0.8455,
+    "EFFECTIVE_PARTIAL": 0.1545
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.69,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 23.76,
+   "mean_probes": 4.08,
+   "mean_rounds": 1.019,
+   "median_t_effective_s": 2009.4966019227757,
+   "n": 2000,
+   "p95_t_effective_s": 2767.6414238469015,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.8455
+  }
+ },
+ "S1_tracked_cross_subnet": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 20.45,
+   "mean_probes": 4.09,
+   "mean_rounds": 1.022,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 20.45,
+   "mean_probes": 4.09,
+   "mean_rounds": 1.022,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  }
+ },
+ "S2_tracked_same_subnet": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8425,
+    "EFFECTIVE_PARTIAL": 0.1575
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.69,
+   "mean_exposure_min": 41.36,
+   "mean_log_queries": 24.21,
+   "mean_probes": 8.34,
+   "mean_rounds": 1.042,
+   "median_t_effective_s": 2015.0575153590478,
+   "n": 2000,
+   "p95_t_effective_s": 2771.251353713911,
+   "residual_exposure": 0.1575,
+   "stops_per_incident": 0.8425
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8425,
+    "EFFECTIVE_PARTIAL": 0.1575
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.69,
+   "mean_exposure_min": 41.36,
+   "mean_log_queries": 24.21,
+   "mean_probes": 8.34,
+   "mean_rounds": 1.042,
+   "median_t_effective_s": 2015.0575153590478,
+   "n": 2000,
+   "p95_t_effective_s": 2771.251353713911,
+   "residual_exposure": 0.1575,
+   "stops_per_incident": 0.8425
+  }
+ },
+ "S3_ipv6_tracked": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 19.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 20.61,
+   "mean_probes": 8.24,
+   "mean_rounds": 1.03,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 19.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 19.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 20.61,
+   "mean_probes": 8.24,
+   "mean_rounds": 1.03,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  }
+ },
+ "S4L_target_role_modifies_SG_late": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 14.0,
+   "mean_exposure_min": 78.44,
+   "mean_log_queries": 20.88,
+   "mean_probes": 8.35,
+   "mean_rounds": 1.044,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.44,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.44,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 78.44,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8515,
+    "EFFECTIVE_PARTIAL": 0.1485
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 15.7,
+   "mean_exposure_min": 11.79,
+   "mean_log_queries": 23.89,
+   "mean_probes": 4.1,
+   "mean_rounds": 1.024,
+   "median_t_effective_s": 1994.0441450433807,
+   "n": 2000,
+   "p95_t_effective_s": 2777.006659715509,
+   "residual_exposure": 0.1485,
+   "stops_per_incident": 0.8515
+  }
+ },
+ "S4_target_role_modifies_SG": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8465,
+    "UNRESOLVED": 0.1535
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 22.69,
+   "mean_exposure_min": 35.97,
+   "mean_log_queries": 22.41,
+   "mean_probes": 13.0,
+   "mean_rounds": 2.0,
+   "median_t_effective_s": 1968.395462306403,
+   "n": 2000,
+   "p95_t_effective_s": 2904.9375896799584,
+   "residual_exposure": 0.1535,
+   "stops_per_incident": 0.8465
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 117.99,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8805,
+    "UNRESOLVED": 0.1195
+   },
+   "false_effective": 0.8805,
+   "false_effective_ci": [
+    0.8655,
+    0.894
+   ],
+   "mean_api_calls": 1.86,
+   "mean_exposure_min": 116.26,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.74,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 366.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 117.99,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8465,
+    "EFFECTIVE_PARTIAL": 0.1535
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 15.69,
+   "mean_exposure_min": 38.55,
+   "mean_log_queries": 23.71,
+   "mean_probes": 4.06,
+   "mean_rounds": 1.016,
+   "median_t_effective_s": 1981.7044025259838,
+   "n": 2000,
+   "p95_t_effective_s": 2765.3187793377856,
+   "residual_exposure": 0.1535,
+   "stops_per_incident": 0.8465
+  }
+ },
+ "S5L_plane_modifies_SG_late": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 78.15,
+   "mean_log_queries": 20.92,
+   "mean_probes": 8.37,
+   "mean_rounds": 1.046,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 12.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.15,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.15,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 78.15,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.85,
+    "EFFECTIVE_PARTIAL": 0.15
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.7,
+   "mean_exposure_min": 11.86,
+   "mean_log_queries": 23.81,
+   "mean_probes": 4.08,
+   "mean_rounds": 1.02,
+   "median_t_effective_s": 1971.8697220479362,
+   "n": 2000,
+   "p95_t_effective_s": 2761.2337109577725,
+   "residual_exposure": 0.15,
+   "stops_per_incident": 0.85
+  }
+ },
+ "S5_plane_modifies_SG": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.848,
+    "UNRESOLVED": 0.152
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 21.7,
+   "mean_exposure_min": 36.08,
+   "mean_log_queries": 22.43,
+   "mean_probes": 13.01,
+   "mean_rounds": 2.0,
+   "median_t_effective_s": 1963.0672067714272,
+   "n": 2000,
+   "p95_t_effective_s": 2877.8500446430767,
+   "residual_exposure": 0.152,
+   "stops_per_incident": 0.848
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 12.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 118.01,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8765,
+    "UNRESOLVED": 0.1235
+   },
+   "false_effective": 0.8765,
+   "false_effective_ci": [
+    0.8614,
+    0.8902
+   ],
+   "mean_api_calls": 1.87,
+   "mean_exposure_min": 116.27,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.74,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 366.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 118.01,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.848,
+    "EFFECTIVE_PARTIAL": 0.152
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.7,
+   "mean_exposure_min": 38.7,
+   "mean_log_queries": 23.83,
+   "mean_probes": 4.09,
+   "mean_rounds": 1.022,
+   "median_t_effective_s": 2031.2442145375999,
+   "n": 2000,
+   "p95_t_effective_s": 2759.7803176302323,
+   "residual_exposure": 0.152,
+   "stops_per_incident": 0.848
+  }
+ },
+ "S6_plane_could_modify_SG_but_intact": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 20.83,
+   "mean_probes": 8.33,
+   "mean_rounds": 1.042,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 12.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.8615,
+   "declared": {
+    "EFFECTIVE": 0.8615,
+    "EFFECTIVE_PARTIAL": 0.1385
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 14.72,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 23.87,
+   "mean_probes": 4.08,
+   "mean_rounds": 1.021,
+   "median_t_effective_s": 1996.2362312500995,
+   "n": 2000,
+   "p95_t_effective_s": 2751.240396730148,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.8615
+  }
+ },
+ "S7_outage_plus_revert": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.885,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8655,
+    "UNRESOLVED": 0.1345
+   },
+   "false_effective": 0.115,
+   "false_effective_ci": [
+    0.1018,
+    0.1297
+   ],
+   "mean_api_calls": 22.12,
+   "mean_exposure_min": 53.43,
+   "mean_log_queries": 42.11,
+   "mean_probes": 11.73,
+   "mean_rounds": 1.956,
+   "median_t_effective_s": 2476.6024163107186,
+   "n": 2000,
+   "p95_t_effective_s": 3364.1997602520487,
+   "residual_exposure": 0.2495,
+   "stops_per_incident": 0.7505
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 120.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 117.99,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 117.99,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 117.99,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8455,
+    "EFFECTIVE_PARTIAL": 0.1545
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 15.69,
+   "mean_exposure_min": 38.88,
+   "mean_log_queries": 23.91,
+   "mean_probes": 3.08,
+   "mean_rounds": 1.026,
+   "median_t_effective_s": 2017.838142076641,
+   "n": 2000,
+   "p95_t_effective_s": 2775.0827693144574,
+   "residual_exposure": 0.1545,
+   "stops_per_incident": 0.8455
+  }
+ },
+ "S8_log_delay_skipdata": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0275,
+   "avoidable_stops_per_incident": 0.0245,
+   "declared": {
+    "EFFECTIVE": 0.997,
+    "EFFECTIVE_PARTIAL": 0.003
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.05,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 36.65,
+   "mean_probes": 14.62,
+   "mean_rounds": 1.827,
+   "median_t_effective_s": 1154.0,
+   "n": 2000,
+   "p95_t_effective_s": 1700.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0245
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.0275,
+   "avoidable_stops_per_incident": 0.0245,
+   "declared": {
+    "EFFECTIVE": 0.997,
+    "EFFECTIVE_PARTIAL": 0.003
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 13.05,
+   "mean_exposure_min": 0.03,
+   "mean_log_queries": 36.65,
+   "mean_probes": 14.62,
+   "mean_rounds": 1.827,
+   "median_t_effective_s": 1154.0,
+   "n": 2000,
+   "p95_t_effective_s": 1700.0,
+   "residual_exposure": 0.0,
+   "stops_per_incident": 0.0245
+  }
+ },
+ "S9L_iam_miss_late_LIMITATION": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 20.79,
+   "mean_probes": 8.32,
+   "mean_rounds": 1.04,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 122.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 78.36,
+   "mean_log_queries": 20.79,
+   "mean_probes": 8.32,
+   "mean_rounds": 1.04,
+   "median_t_effective_s": 608.0,
+   "n": 2000,
+   "p95_t_effective_s": 608.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  }
+ },
+ "S9_iam_miss": {
+  "A1_nosel_verify": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8495,
+    "UNRESOLVED": 0.1505
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 21.7,
+   "mean_exposure_min": 35.59,
+   "mean_log_queries": 22.43,
+   "mean_probes": 13.01,
+   "mean_rounds": 2.0,
+   "median_t_effective_s": 1932.616056070282,
+   "n": 2000,
+   "p95_t_effective_s": 2926.420335255791,
+   "residual_exposure": 0.1505,
+   "stops_per_incident": 0.8495
+  },
+  "A2_sel_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 13.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B1_agent_selfreport": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 119.96,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 7.0,
+   "n": 2000,
+   "p95_t_effective_s": 7.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B2_SG_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 1.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B3_SG_naiveprobe": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8745,
+    "UNRESOLVED": 0.1255
+   },
+   "false_effective": 0.8745,
+   "false_effective_ci": [
+    0.8593,
+    0.8883
+   ],
+   "mean_api_calls": 1.88,
+   "mean_exposure_min": 116.25,
+   "mean_log_queries": 0.0,
+   "mean_probes": 1.75,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 122.0,
+   "n": 2000,
+   "p95_t_effective_s": 366.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "B4_SG_NACLv4_apiack": {
+   "approvals_per_incident": 0.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 1.0
+   },
+   "false_effective": 1.0,
+   "false_effective_ci": [
+    0.9981,
+    1.0
+   ],
+   "mean_api_calls": 7.0,
+   "mean_exposure_min": 118.0,
+   "mean_log_queries": 0.0,
+   "mean_probes": 0.0,
+   "mean_rounds": 0.0,
+   "median_t_effective_s": 2.0,
+   "n": 2000,
+   "p95_t_effective_s": 2.0,
+   "residual_exposure": 1.0,
+   "stops_per_incident": 0.0
+  },
+  "FULL": {
+   "approvals_per_incident": 1.0,
+   "avoidable_stops_per_incident": 0.0,
+   "declared": {
+    "EFFECTIVE": 0.8495,
+    "UNRESOLVED": 0.1505
+   },
+   "false_effective": 0.0,
+   "false_effective_ci": [
+    0.0,
+    0.0019
+   ],
+   "mean_api_calls": 21.7,
+   "mean_exposure_min": 35.59,
+   "mean_log_queries": 22.43,
+   "mean_probes": 13.01,
+   "mean_rounds": 2.0,
+   "median_t_effective_s": 1932.616056070282,
+   "n": 2000,
+   "p95_t_effective_s": 2926.420335255791,
+   "residual_exposure": 0.1505,
+   "stops_per_incident": 0.8495
+  }
+ }
+}

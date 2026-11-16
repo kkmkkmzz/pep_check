@@ -1,0 +1,27 @@
+{
+ "calibrated": true,
+ "log_delay": {
+  "hi": 306.0,
+  "lo": 40.0,
+  "tail_hi": 1800.0,
+  "tail_lo": 300.0
+ },
+ "mix": {
+  "iam_miss": 0.05,
+  "ipv6": 0.3,
+  "late": 0.5,
+  "mp_comp": 0.5,
+  "mp_sg": 0.2,
+  "outage": 0.1,
+  "p_approve": 0.85,
+  "p_skip": 0.02,
+  "p_tail": 0.05,
+  "privileged": 0.7,
+  "reach_all": 0.02,
+  "reach_net": 0.05,
+  "reach_sg": 0.3,
+  "same_hosts": 0.4,
+  "tracked": 0.6,
+  "v_same": 0.7
+ }
+}

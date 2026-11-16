@@ -1,0 +1,4477 @@
+{
+ "documented_log_delay": {
+  "A1_nosel_verify": {
+   "approvals_k": 615,
+   "avoidable_stops_k": 35,
+   "declared_effective_any_k": 1977,
+   "declared_k": {
+    "EFFECTIVE": 1901,
+    "EFFECTIVE_PARTIAL": 76,
+    "UNRESOLVED": 23
+   },
+   "failed_rounds_k": 334,
+   "false_effective": 0.058,
+   "false_effective_ci": [
+    0.0486,
+    0.0691
+   ],
+   "false_effective_given_declared": 0.05867475973697522,
+   "false_effective_k": 116,
+   "mean_api_calls": 16.5125,
+   "mean_exposure_min": 17.073264293608972,
+   "mean_log_queries": 35.175,
+   "mean_probes": 7.1535,
+   "mean_rounds": 1.1095,
+   "mean_snapshot_reads": 2.219,
+   "median_t_effective_s": 1022.0,
+   "n": 2000,
+   "p95_t_effective_s": 2822.0,
+   "residual_by_declared_k": {
+    "EFFECTIVE": 105,
+    "EFFECTIVE_PARTIAL": 61,
+    "UNRESOLVED": 23
+   },
+   "residual_k": 189,
+   "stops_k": 516
+  },
+  "FULL": {
+   "approvals_k": 693,
+   "avoidable_stops_k": 52,
+   "declared_effective_any_k": 1954,
+   "declared_k": {
+    "EFFECTIVE": 1853,
+    "EFFECTIVE_PARTIAL": 101,
+    "UNRESOLVED": 46
+   },
+   "failed_rounds_k": 6,
+   "false_effective": 0.0005,
+   "false_effective_ci": [
+    0.0001,
+    0.0028
+   ],
+   "false_effective_given_declared": 0.0005117707267144319,
+   "false_effective_k": 1,
+   "mean_api_calls": 15.2775,
+   "mean_exposure_min": 15.254629600023716,
+   "mean_log_queries": 33.54,
+   "mean_probes": 5.8755,
+   "mean_rounds": 0.988,
+   "mean_snapshot_reads": 1.976,
+   "median_t_effective_s": 1022.0,
+   "n": 2000,
+   "p95_t_effective_s": 2822.0,
+   "residual_by_declared_k": {
+    "EFFECTIVE": 1,
+    "EFFECTIVE_PARTIAL": 82,
+    "UNRESOLVED": 46
+   },
+   "residual_k": 129,
+   "stops_k": 582
+  }
+ },
+ "iam_miss": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.627,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 22,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.293,
+    "false_effective_ci": [
+     0.2656,
+     0.322
+    ],
+    "false_effective_given_declared": 0.30020491803278687,
+    "false_effective_k": 293,
+    "mean_api_calls": 14.342,
+    "mean_exposure_min": 38.720960324722924,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 293,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 317,
+    "stops_k": 19
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 343,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.0,
+    "false_effective_ci": [
+     0.0,
+     0.0038
+    ],
+    "false_effective_given_declared": 0.0,
+    "false_effective_k": 0,
+    "mean_api_calls": 15.338,
+    "mean_exposure_min": 13.921521562346943,
+    "mean_log_queries": 21.758,
+    "mean_probes": 5.864,
+    "mean_rounds": 0.989,
+    "mean_snapshot_reads": 1.978,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 0,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 63,
+    "stops_k": 295
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.05
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.609,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.338,
+    "mean_exposure_min": 38.73638566458454,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 341,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 10,
+    "false_effective": 0.002,
+    "false_effective_ci": [
+     0.0005,
+     0.0073
+    ],
+    "false_effective_given_declared": 0.0020491803278688526,
+    "false_effective_k": 2,
+    "mean_api_calls": 15.351,
+    "mean_exposure_min": 14.091723206614887,
+    "mean_log_queries": 21.792,
+    "mean_probes": 5.931,
+    "mean_rounds": 0.995,
+    "mean_snapshot_reads": 1.99,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 2,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 65,
+    "stops_k": 293
+   },
+   "value": 0.1
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.581,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 20,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 977,
+    "declared_k": {
+     "EFFECTIVE": 977,
+     "UNRESOLVED": 23
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.295,
+    "false_effective_ci": [
+     0.2676,
+     0.324
+    ],
+    "false_effective_given_declared": 0.30194472876151485,
+    "false_effective_k": 295,
+    "mean_api_calls": 14.334,
+    "mean_exposure_min": 38.69046072036828,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 295,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 341,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 19,
+    "false_effective": 0.003,
+    "false_effective_ci": [
+     0.001,
+     0.0088
+    ],
+    "false_effective_given_declared": 0.0030737704918032786,
+    "false_effective_k": 3,
+    "mean_api_calls": 15.358,
+    "mean_exposure_min": 14.109118602818508,
+    "mean_log_queries": 21.896,
+    "mean_probes": 5.975,
+    "mean_rounds": 1.001,
+    "mean_snapshot_reads": 2.002,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 2,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 65,
+    "stops_k": 293
+   },
+   "value": 0.2
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.514,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 18,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 977,
+    "declared_k": {
+     "EFFECTIVE": 977,
+     "UNRESOLVED": 23
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.297,
+    "false_effective_ci": [
+     0.2695,
+     0.3261
+    ],
+    "false_effective_given_declared": 0.3039918116683726,
+    "false_effective_k": 297,
+    "mean_api_calls": 14.318,
+    "mean_exposure_min": 38.7471724333549,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 297,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 320,
+    "stops_k": 16
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 338,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 975,
+    "declared_k": {
+     "EFFECTIVE": 932,
+     "EFFECTIVE_PARTIAL": 43,
+     "UNRESOLVED": 25
+    },
+    "failed_rounds_k": 47,
+    "false_effective": 0.008,
+    "false_effective_ci": [
+     0.0041,
+     0.0157
+    ],
+    "false_effective_given_declared": 0.008205128205128205,
+    "false_effective_k": 8,
+    "mean_api_calls": 15.403,
+    "mean_exposure_min": 14.331810577442688,
+    "mean_log_queries": 22.052,
+    "mean_probes": 6.133,
+    "mean_rounds": 1.017,
+    "mean_snapshot_reads": 2.034,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 5,
+     "EFFECTIVE_PARTIAL": 38,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 67,
+    "stops_k": 291
+   },
+   "value": 0.4
+  }
+ ],
+ "late": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 347,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 969,
+    "declared_k": {
+     "EFFECTIVE": 947,
+     "EFFECTIVE_PARTIAL": 22,
+     "UNRESOLVED": 31
+    },
+    "failed_rounds_k": 355,
+    "false_effective": 0.015,
+    "false_effective_ci": [
+     0.0091,
+     0.0246
+    ],
+    "false_effective_given_declared": 0.015479876160990712,
+    "false_effective_k": 15,
+    "mean_api_calls": 17.402,
+    "mean_exposure_min": 15.244443643169003,
+    "mean_log_queries": 23.648,
+    "mean_probes": 7.625,
+    "mean_rounds": 1.206,
+    "mean_snapshot_reads": 2.412,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 15,
+     "EFFECTIVE_PARTIAL": 19,
+     "UNRESOLVED": 31
+    },
+    "residual_k": 65,
+    "stops_k": 294
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.81416967739254,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 87.78075641520589,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 38.44309693285104,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 343,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 12,
+    "false_effective": 0.0,
+    "false_effective_ci": [
+     0.0,
+     0.0038
+    ],
+    "false_effective_given_declared": 0.0,
+    "false_effective_k": 0,
+    "mean_api_calls": 15.365,
+    "mean_exposure_min": 14.803901154168914,
+    "mean_log_queries": 21.736,
+    "mean_probes": 5.907,
+    "mean_rounds": 0.995,
+    "mean_snapshot_reads": 1.99,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 0,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 63,
+    "stops_k": 295
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 325,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 978,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 27,
+     "UNRESOLVED": 22
+    },
+    "failed_rounds_k": 265,
+    "false_effective": 0.036,
+    "false_effective_ci": [
+     0.0261,
+     0.0494
+    ],
+    "false_effective_given_declared": 0.03680981595092025,
+    "false_effective_k": 36,
+    "mean_api_calls": 16.961,
+    "mean_exposure_min": 15.519441740812331,
+    "mean_log_queries": 23.494,
+    "mean_probes": 7.406,
+    "mean_rounds": 1.164,
+    "mean_snapshot_reads": 2.328,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 33,
+     "EFFECTIVE_PARTIAL": 24,
+     "UNRESOLVED": 22
+    },
+    "residual_k": 79,
+    "stops_k": 276
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 85.70626306513367,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 37.37538355194811,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 8,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.349,
+    "mean_exposure_min": 14.331936980710832,
+    "mean_log_queries": 21.77,
+    "mean_probes": 5.907,
+    "mean_rounds": 0.994,
+    "mean_snapshot_reads": 1.988,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.25
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 288,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 992,
+    "declared_k": {
+     "EFFECTIVE": 956,
+     "EFFECTIVE_PARTIAL": 36,
+     "UNRESOLVED": 8
+    },
+    "failed_rounds_k": 76,
+    "false_effective": 0.077,
+    "false_effective_ci": [
+     0.062,
+     0.0952
+    ],
+    "false_effective_given_declared": 0.07762096774193548,
+    "false_effective_k": 77,
+    "mean_api_calls": 16.045,
+    "mean_exposure_min": 16.12990898356262,
+    "mean_log_queries": 22.896,
+    "mean_probes": 6.912,
+    "mean_rounds": 1.07,
+    "mean_snapshot_reads": 2.14,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 66,
+     "EFFECTIVE_PARTIAL": 33,
+     "UNRESOLVED": 8
+    },
+    "residual_k": 107,
+    "stops_k": 244
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.72810460601606,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 82.76485611997428,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 35.42266480957546,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 341,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 2,
+    "false_effective": 0.002,
+    "false_effective_ci": [
+     0.0005,
+     0.0073
+    ],
+    "false_effective_given_declared": 0.0020491803278688526,
+    "false_effective_k": 2,
+    "mean_api_calls": 15.332,
+    "mean_exposure_min": 13.392753484062174,
+    "mean_log_queries": 21.774,
+    "mean_probes": 5.896,
+    "mean_rounds": 0.991,
+    "mean_snapshot_reads": 1.982,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 2,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 65,
+    "stops_k": 293
+   },
+   "value": 0.75
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 268,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 960,
+     "EFFECTIVE_PARTIAL": 40
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.098,
+    "false_effective_ci": [
+     0.0811,
+     0.118
+    ],
+    "false_effective_given_declared": 0.098,
+    "false_effective_k": 98,
+    "mean_api_calls": 15.699,
+    "mean_exposure_min": 16.596131124606135,
+    "mean_log_queries": 22.704,
+    "mean_probes": 6.735,
+    "mean_rounds": 1.032,
+    "mean_snapshot_reads": 2.064,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2467.5,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 84,
+     "EFFECTIVE_PARTIAL": 37
+    },
+    "residual_k": 121,
+    "stops_k": 228
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.68388920849886,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 81.29647363876096,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 34.61180450904029,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 340,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.003,
+    "false_effective_ci": [
+     0.001,
+     0.0088
+    ],
+    "false_effective_given_declared": 0.0030737704918032786,
+    "false_effective_k": 3,
+    "mean_api_calls": 15.323,
+    "mean_exposure_min": 13.116655442038503,
+    "mean_log_queries": 21.78,
+    "mean_probes": 5.892,
+    "mean_rounds": 0.99,
+    "mean_snapshot_reads": 1.98,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 3,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 66,
+    "stops_k": 292
+   },
+   "value": 1.0
+  }
+ ],
+ "p_approve": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 14,
+    "declared_effective_any_k": 954,
+    "declared_k": {
+     "EFFECTIVE": 844,
+     "EFFECTIVE_PARTIAL": 110,
+     "UNRESOLVED": 46
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.064,
+    "false_effective_ci": [
+     0.0504,
+     0.0809
+    ],
+    "false_effective_given_declared": 0.06708595387840671,
+    "false_effective_k": 64,
+    "mean_api_calls": 16.404,
+    "mean_exposure_min": 24.548356309110545,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 43,
+     "EFFECTIVE_PARTIAL": 96,
+     "UNRESOLVED": 46
+    },
+    "residual_k": 185,
+    "stops_k": 154
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 967,
+    "declared_k": {
+     "EFFECTIVE": 967,
+     "UNRESOLVED": 33
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.30403309203722856,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.322,
+    "mean_exposure_min": 39.74709958543229,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 33
+    },
+    "residual_k": 327,
+    "stops_k": 9
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 17,
+    "declared_effective_any_k": 964,
+    "declared_k": {
+     "EFFECTIVE": 805,
+     "EFFECTIVE_PARTIAL": 159,
+     "UNRESOLVED": 36
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.002,
+    "false_effective_ci": [
+     0.0005,
+     0.0073
+    ],
+    "false_effective_given_declared": 0.002074688796680498,
+    "false_effective_k": 2,
+    "mean_api_calls": 15.09,
+    "mean_exposure_min": 23.82127330757284,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 137,
+     "UNRESOLVED": 33
+    },
+    "residual_k": 171,
+    "stops_k": 168
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 19,
+    "declared_effective_any_k": 974,
+    "declared_k": {
+     "EFFECTIVE": 912,
+     "EFFECTIVE_PARTIAL": 62,
+     "UNRESOLVED": 26
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.057,
+    "false_effective_ci": [
+     0.0443,
+     0.0731
+    ],
+    "false_effective_given_declared": 0.058521560574948665,
+    "false_effective_k": 57,
+    "mean_api_calls": 16.54,
+    "mean_exposure_min": 18.896325560065883,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 45,
+     "EFFECTIVE_PARTIAL": 53,
+     "UNRESOLVED": 26
+    },
+    "residual_k": 124,
+    "stops_k": 222
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 971,
+    "declared_k": {
+     "EFFECTIVE": 971,
+     "UNRESOLVED": 29
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3027806385169928,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.33,
+    "mean_exposure_min": 39.30312776989052,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 29
+    },
+    "residual_k": 323,
+    "stops_k": 13
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 26,
+    "declared_effective_any_k": 970,
+    "declared_k": {
+     "EFFECTIVE": 883,
+     "EFFECTIVE_PARTIAL": 87,
+     "UNRESOLVED": 30
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010309278350515464,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.246,
+    "mean_exposure_min": 17.497538038661926,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 74,
+     "UNRESOLVED": 28
+    },
+    "residual_k": 103,
+    "stops_k": 246
+   },
+   "value": 0.7
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.85
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 27,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.054,
+    "false_effective_ci": [
+     0.0416,
+     0.0698
+    ],
+    "false_effective_given_declared": 0.054,
+    "false_effective_k": 54,
+    "mean_api_calls": 16.716,
+    "mean_exposure_min": 12.46757091862554,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2361.9,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 54
+    },
+    "residual_k": 54,
+    "stops_k": 310
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 979,
+    "declared_k": {
+     "EFFECTIVE": 979,
+     "UNRESOLVED": 21
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3003064351378958,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.346,
+    "mean_exposure_min": 38.458225525464286,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 21
+    },
+    "residual_k": 315,
+    "stops_k": 21
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 38,
+    "declared_effective_any_k": 979,
+    "declared_k": {
+     "EFFECTIVE": 979,
+     "UNRESOLVED": 21
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010214504596527069,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.438,
+    "mean_exposure_min": 10.183071150557895,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2311.5,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "UNRESOLVED": 21
+    },
+    "residual_k": 22,
+    "stops_k": 342
+   },
+   "value": 1.0
+  }
+ ],
+ "reach_sg": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 290,
+    "avoidable_stops_k": 31,
+    "declared_effective_any_k": 990,
+    "declared_k": {
+     "EFFECTIVE": 954,
+     "EFFECTIVE_PARTIAL": 36,
+     "UNRESOLVED": 10
+    },
+    "failed_rounds_k": 67,
+    "false_effective": 0.037,
+    "false_effective_ci": [
+     0.027,
+     0.0506
+    ],
+    "false_effective_given_declared": 0.03737373737373737,
+    "false_effective_k": 37,
+    "mean_api_calls": 15.735,
+    "mean_exposure_min": 13.773548058997113,
+    "mean_log_queries": 23.004,
+    "mean_probes": 6.888,
+    "mean_rounds": 1.066,
+    "mean_snapshot_reads": 2.132,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 33,
+     "EFFECTIVE_PARTIAL": 31,
+     "UNRESOLVED": 10
+    },
+    "residual_k": 74,
+    "stops_k": 244
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 10,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 978,
+    "declared_k": {
+     "EFFECTIVE": 978,
+     "UNRESOLVED": 22
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.265,
+    "false_effective_ci": [
+     0.2386,
+     0.2932
+    ],
+    "false_effective_given_declared": 0.27096114519427406,
+    "false_effective_k": 265,
+    "mean_api_calls": 14.272,
+    "mean_exposure_min": 34.96342975223955,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 265,
+     "UNRESOLVED": 22
+    },
+    "residual_k": 287,
+    "stops_k": 9
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.618,
+    "false_effective_ci": [
+     0.5875,
+     0.6476
+    ],
+    "false_effective_given_declared": 0.618,
+    "false_effective_k": 618,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 73.09198812159238,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 618
+    },
+    "residual_k": 618,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.276,
+    "false_effective_ci": [
+     0.2492,
+     0.3045
+    ],
+    "false_effective_given_declared": 0.276,
+    "false_effective_k": 276,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 32.2840904171111,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 276
+    },
+    "residual_k": 276,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 311,
+    "avoidable_stops_k": 41,
+    "declared_effective_any_k": 978,
+    "declared_k": {
+     "EFFECTIVE": 934,
+     "EFFECTIVE_PARTIAL": 44,
+     "UNRESOLVED": 22
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.0,
+    "false_effective_ci": [
+     0.0,
+     0.0038
+    ],
+    "false_effective_given_declared": 0.0,
+    "false_effective_k": 0,
+    "mean_api_calls": 14.995,
+    "mean_exposure_min": 12.861974086191056,
+    "mean_log_queries": 22.022,
+    "mean_probes": 6.27,
+    "mean_rounds": 1.001,
+    "mean_snapshot_reads": 2.002,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 0,
+     "EFFECTIVE_PARTIAL": 36,
+     "UNRESOLVED": 21
+    },
+    "residual_k": 57,
+    "stops_k": 266
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 302,
+    "avoidable_stops_k": 26,
+    "declared_effective_any_k": 986,
+    "declared_k": {
+     "EFFECTIVE": 953,
+     "EFFECTIVE_PARTIAL": 33,
+     "UNRESOLVED": 14
+    },
+    "failed_rounds_k": 142,
+    "false_effective": 0.049,
+    "false_effective_ci": [
+     0.0373,
+     0.0642
+    ],
+    "false_effective_given_declared": 0.04969574036511156,
+    "false_effective_k": 49,
+    "mean_api_calls": 16.261,
+    "mean_exposure_min": 15.273686306085748,
+    "mean_log_queries": 23.342,
+    "mean_probes": 7.103,
+    "mean_rounds": 1.103,
+    "mean_snapshot_reads": 2.206,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 43,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 14
+    },
+    "residual_k": 86,
+    "stops_k": 255
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 17,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 977,
+    "declared_k": {
+     "EFFECTIVE": 977,
+     "UNRESOLVED": 23
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.284,
+    "false_effective_ci": [
+     0.2569,
+     0.3127
+    ],
+    "false_effective_given_declared": 0.2906857727737973,
+    "false_effective_k": 284,
+    "mean_api_calls": 14.308,
+    "mean_exposure_min": 37.403572330877424,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 284,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 307,
+    "stops_k": 15
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.678,
+    "false_effective_ci": [
+     0.6484,
+     0.7062
+    ],
+    "false_effective_given_declared": 0.678,
+    "false_effective_k": 678,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 78.88559109324659,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 678
+    },
+    "residual_k": 678,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.304,
+    "false_effective_ci": [
+     0.2763,
+     0.3332
+    ],
+    "false_effective_given_declared": 0.304,
+    "false_effective_k": 304,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 35.16614582722232,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 304
+    },
+    "residual_k": 304,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 331,
+    "avoidable_stops_k": 35,
+    "declared_effective_any_k": 977,
+    "declared_k": {
+     "EFFECTIVE": 932,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 23
+    },
+    "failed_rounds_k": 4,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010235414534288639,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.187,
+    "mean_exposure_min": 13.518583229839994,
+    "mean_log_queries": 21.87,
+    "mean_probes": 6.049,
+    "mean_rounds": 0.996,
+    "mean_snapshot_reads": 1.992,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 38,
+     "UNRESOLVED": 22
+    },
+    "residual_k": 61,
+    "stops_k": 284
+   },
+   "value": 0.15
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 330,
+    "avoidable_stops_k": 12,
+    "declared_effective_any_k": 977,
+    "declared_k": {
+     "EFFECTIVE": 948,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 23
+    },
+    "failed_rounds_k": 305,
+    "false_effective": 0.076,
+    "false_effective_ci": [
+     0.0611,
+     0.0941
+    ],
+    "false_effective_given_declared": 0.07778915046059365,
+    "false_effective_k": 76,
+    "mean_api_calls": 17.442,
+    "mean_exposure_min": 18.640484565542856,
+    "mean_log_queries": 23.682,
+    "mean_probes": 7.51,
+    "mean_rounds": 1.184,
+    "mean_snapshot_reads": 2.368,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 67,
+     "EFFECTIVE_PARTIAL": 26,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 116,
+    "stops_k": 278
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 35,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 973,
+    "declared_k": {
+     "EFFECTIVE": 973,
+     "UNRESOLVED": 27
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.323,
+    "false_effective_ci": [
+     0.2947,
+     0.3526
+    ],
+    "false_effective_given_declared": 0.3319630010277492,
+    "false_effective_k": 323,
+    "mean_api_calls": 14.433,
+    "mean_exposure_min": 42.69002550264335,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 323,
+     "UNRESOLVED": 27
+    },
+    "residual_k": 350,
+    "stops_k": 29
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.851,
+    "false_effective_ci": [
+     0.8276,
+     0.8717
+    ],
+    "false_effective_given_declared": 0.851,
+    "false_effective_k": 851,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 96.2577104302992,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 851
+    },
+    "residual_k": 851,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.372,
+    "false_effective_ci": [
+     0.3426,
+     0.4024
+    ],
+    "false_effective_given_declared": 0.372,
+    "false_effective_k": 372,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 41.94586465891201,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 372
+    },
+    "residual_k": 372,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 372,
+    "avoidable_stops_k": 15,
+    "declared_effective_any_k": 973,
+    "declared_k": {
+     "EFFECTIVE": 927,
+     "EFFECTIVE_PARTIAL": 46,
+     "UNRESOLVED": 27
+    },
+    "failed_rounds_k": 10,
+    "false_effective": 0.002,
+    "false_effective_ci": [
+     0.0005,
+     0.0073
+    ],
+    "false_effective_given_declared": 0.0020554984583761563,
+    "false_effective_k": 2,
+    "mean_api_calls": 15.715,
+    "mean_exposure_min": 15.121039564402533,
+    "mean_log_queries": 21.462,
+    "mean_probes": 5.597,
+    "mean_rounds": 0.98,
+    "mean_snapshot_reads": 1.96,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 2,
+     "EFFECTIVE_PARTIAL": 43,
+     "UNRESOLVED": 26
+    },
+    "residual_k": 71,
+    "stops_k": 320
+   },
+   "value": 0.6
+  }
+ ],
+ "tracked": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 178,
+    "avoidable_stops_k": 58,
+    "declared_effective_any_k": 984,
+    "declared_k": {
+     "EFFECTIVE": 966,
+     "EFFECTIVE_PARTIAL": 18,
+     "UNRESOLVED": 16
+    },
+    "failed_rounds_k": 180,
+    "false_effective": 0.072,
+    "false_effective_ci": [
+     0.0576,
+     0.0897
+    ],
+    "false_effective_given_declared": 0.07317073170731707,
+    "false_effective_k": 72,
+    "mean_api_calls": 16.342,
+    "mean_exposure_min": 10.166077652196108,
+    "mean_log_queries": 23.27,
+    "mean_probes": 7.21,
+    "mean_rounds": 1.122,
+    "mean_snapshot_reads": 2.244,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2239.8,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 69,
+     "EFFECTIVE_PARTIAL": 6,
+     "UNRESOLVED": 16
+    },
+    "residual_k": 91,
+    "stops_k": 144
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.162,
+    "false_effective_ci": [
+     0.1405,
+     0.1861
+    ],
+    "false_effective_given_declared": 0.16598360655737704,
+    "false_effective_k": 162,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 22.87349630596989,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 162,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 186,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.364,
+    "false_effective_ci": [
+     0.3348,
+     0.3943
+    ],
+    "false_effective_given_declared": 0.364,
+    "false_effective_k": 364,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 36.25816819515487,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 364
+    },
+    "residual_k": 364,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.166,
+    "false_effective_ci": [
+     0.1442,
+     0.1903
+    ],
+    "false_effective_given_declared": 0.166,
+    "false_effective_k": 166,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 17.060886188137953,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 166
+    },
+    "residual_k": 166,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 246,
+    "avoidable_stops_k": 80,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 941,
+     "EFFECTIVE_PARTIAL": 35,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.003,
+    "false_effective_ci": [
+     0.001,
+     0.0088
+    ],
+    "false_effective_given_declared": 0.0030737704918032786,
+    "false_effective_k": 3,
+    "mean_api_calls": 15.17,
+    "mean_exposure_min": 6.458887388962476,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2399.4,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 3,
+     "EFFECTIVE_PARTIAL": 19,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 45,
+    "stops_k": 208
+   },
+   "value": 0.0
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 239,
+    "avoidable_stops_k": 40,
+    "declared_effective_any_k": 984,
+    "declared_k": {
+     "EFFECTIVE": 961,
+     "EFFECTIVE_PARTIAL": 23,
+     "UNRESOLVED": 16
+    },
+    "failed_rounds_k": 185,
+    "false_effective": 0.059,
+    "false_effective_ci": [
+     0.046,
+     0.0754
+    ],
+    "false_effective_given_declared": 0.059959349593495935,
+    "false_effective_k": 59,
+    "mean_api_calls": 16.475,
+    "mean_exposure_min": 13.004016055104717,
+    "mean_log_queries": 23.336,
+    "mean_probes": 7.221,
+    "mean_rounds": 1.125,
+    "mean_snapshot_reads": 2.25,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2386.8,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 55,
+     "EFFECTIVE_PARTIAL": 18,
+     "UNRESOLVED": 16
+    },
+    "residual_k": 89,
+    "stops_k": 200
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.219,
+    "false_effective_ci": [
+     0.1945,
+     0.2457
+    ],
+    "false_effective_given_declared": 0.22438524590163936,
+    "false_effective_k": 219,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 29.74637536826225,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 219,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 243,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.548,
+    "false_effective_ci": [
+     0.517,
+     0.5786
+    ],
+    "false_effective_given_declared": 0.548,
+    "false_effective_k": 548,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 60.35514566549451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 548
+    },
+    "residual_k": 548,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.238,
+    "false_effective_ci": [
+     0.2126,
+     0.2654
+    ],
+    "false_effective_given_declared": 0.238,
+    "false_effective_k": 238,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 26.490901198283776,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 238
+    },
+    "residual_k": 238,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 283,
+    "avoidable_stops_k": 52,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 937,
+     "EFFECTIVE_PARTIAL": 39,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.002,
+    "false_effective_ci": [
+     0.0005,
+     0.0073
+    ],
+    "false_effective_given_declared": 0.0020491803278688526,
+    "false_effective_k": 2,
+    "mean_api_calls": 15.236,
+    "mean_exposure_min": 10.420716418694102,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2452.8,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 2,
+     "EFFECTIVE_PARTIAL": 31,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 56,
+    "stops_k": 241
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.6
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 388,
+    "avoidable_stops_k": 6,
+    "declared_effective_any_k": 982,
+    "declared_k": {
+     "EFFECTIVE": 941,
+     "EFFECTIVE_PARTIAL": 41,
+     "UNRESOLVED": 18
+    },
+    "failed_rounds_k": 209,
+    "false_effective": 0.046,
+    "false_effective_ci": [
+     0.0347,
+     0.0608
+    ],
+    "false_effective_given_declared": 0.04684317718940937,
+    "false_effective_k": 46,
+    "mean_api_calls": 16.829,
+    "mean_exposure_min": 19.35027930992626,
+    "mean_log_queries": 23.578,
+    "mean_probes": 7.279,
+    "mean_rounds": 1.136,
+    "mean_snapshot_reads": 2.272,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 36,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 18
+    },
+    "residual_k": 94,
+    "stops_k": 329
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.367,
+    "false_effective_ci": [
+     0.3377,
+     0.3973
+    ],
+    "false_effective_given_declared": 0.3760245901639344,
+    "false_effective_k": 367,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 47.51214202436375,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 367,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 391,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.934,
+    "false_effective_ci": [
+     0.9169,
+     0.9478
+    ],
+    "false_effective_given_declared": 0.934,
+    "false_effective_k": 934,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 111.08269083178615,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 934
+    },
+    "residual_k": 934,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.406,
+    "false_effective_ci": [
+     0.376,
+     0.4367
+    ],
+    "false_effective_given_declared": 0.406,
+    "false_effective_k": 406,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 47.82725539309438,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 406
+    },
+    "residual_k": 406,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 395,
+    "avoidable_stops_k": 7,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 925,
+     "EFFECTIVE_PARTIAL": 51,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.436,
+    "mean_exposure_min": 18.13227852465459,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 50,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 74,
+    "stops_k": 341
+   },
+   "value": 0.9
+  }
+ ],
+ "v_same": [
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 364,
+    "avoidable_stops_k": 65,
+    "declared_effective_any_k": 984,
+    "declared_k": {
+     "EFFECTIVE": 946,
+     "EFFECTIVE_PARTIAL": 38,
+     "UNRESOLVED": 16
+    },
+    "failed_rounds_k": 185,
+    "false_effective": 0.047,
+    "false_effective_ci": [
+     0.0355,
+     0.0619
+    ],
+    "false_effective_given_declared": 0.047764227642276426,
+    "false_effective_k": 47,
+    "mean_api_calls": 16.702,
+    "mean_exposure_min": 15.889242021777815,
+    "mean_log_queries": 24.03,
+    "mean_probes": 6.412,
+    "mean_rounds": 1.126,
+    "mean_snapshot_reads": 2.252,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 40,
+     "EFFECTIVE_PARTIAL": 31,
+     "UNRESOLVED": 16
+    },
+    "residual_k": 87,
+    "stops_k": 310
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 382,
+    "avoidable_stops_k": 68,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 928,
+     "EFFECTIVE_PARTIAL": 48,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.0,
+    "false_effective_ci": [
+     0.0,
+     0.0038
+    ],
+    "false_effective_given_declared": 0.0,
+    "false_effective_k": 0,
+    "mean_api_calls": 15.416,
+    "mean_exposure_min": 13.939711929213175,
+    "mean_log_queries": 21.804,
+    "mean_probes": 5.465,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 0,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 63,
+    "stops_k": 331
+   },
+   "value": 0.3
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 344,
+    "avoidable_stops_k": 51,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 948,
+     "EFFECTIVE_PARTIAL": 35,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 192,
+    "false_effective": 0.052,
+    "false_effective_ci": [
+     0.0399,
+     0.0676
+    ],
+    "false_effective_given_declared": 0.052899287894201424,
+    "false_effective_k": 52,
+    "mean_api_calls": 16.687,
+    "mean_exposure_min": 16.0100360297805,
+    "mean_log_queries": 23.774,
+    "mean_probes": 6.765,
+    "mean_rounds": 1.129,
+    "mean_snapshot_reads": 2.258,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 44,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 90,
+    "stops_k": 292
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 368,
+    "avoidable_stops_k": 56,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 929,
+     "EFFECTIVE_PARTIAL": 47,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.39,
+    "mean_exposure_min": 14.0130564067664,
+    "mean_log_queries": 21.804,
+    "mean_probes": 5.652,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 318
+   },
+   "value": 0.5
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 310,
+    "avoidable_stops_k": 24,
+    "declared_effective_any_k": 983,
+    "declared_k": {
+     "EFFECTIVE": 951,
+     "EFFECTIVE_PARTIAL": 32,
+     "UNRESOLVED": 17
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.055,
+    "false_effective_ci": [
+     0.0425,
+     0.0709
+    ],
+    "false_effective_given_declared": 0.05595116988809766,
+    "false_effective_k": 55,
+    "mean_api_calls": 16.618,
+    "mean_exposure_min": 16.083458190824555,
+    "mean_log_queries": 23.402,
+    "mean_probes": 7.233,
+    "mean_rounds": 1.128,
+    "mean_snapshot_reads": 2.256,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 47,
+     "EFFECTIVE_PARTIAL": 29,
+     "UNRESOLVED": 17
+    },
+    "residual_k": 93,
+    "stops_k": 261
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 342,
+    "avoidable_stops_k": 33,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 931,
+     "EFFECTIVE_PARTIAL": 45,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.342,
+    "mean_exposure_min": 13.998856406766402,
+    "mean_log_queries": 21.776,
+    "mean_probes": 5.903,
+    "mean_rounds": 0.993,
+    "mean_snapshot_reads": 1.986,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 294
+   },
+   "value": 0.7
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 282,
+    "avoidable_stops_k": 6,
+    "declared_effective_any_k": 982,
+    "declared_k": {
+     "EFFECTIVE": 955,
+     "EFFECTIVE_PARTIAL": 27,
+     "UNRESOLVED": 18
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.059,
+    "false_effective_ci": [
+     0.046,
+     0.0754
+    ],
+    "false_effective_given_declared": 0.06008146639511202,
+    "false_effective_k": 59,
+    "mean_api_calls": 16.563,
+    "mean_exposure_min": 16.167954009624808,
+    "mean_log_queries": 23.09,
+    "mean_probes": 7.66,
+    "mean_rounds": 1.131,
+    "mean_snapshot_reads": 2.262,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2430.5,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 51,
+     "EFFECTIVE_PARTIAL": 27,
+     "UNRESOLVED": 18
+    },
+    "residual_k": 96,
+    "stops_k": 237
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 321,
+    "avoidable_stops_k": 17,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 934,
+     "EFFECTIVE_PARTIAL": 42,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.306,
+    "mean_exposure_min": 14.007956406766402,
+    "mean_log_queries": 21.842,
+    "mean_probes": 6.155,
+    "mean_rounds": 0.996,
+    "mean_snapshot_reads": 1.992,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 276
+   },
+   "value": 0.9
+  },
+  {
+   "A1_nosel_verify": {
+    "approvals_k": 274,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 982,
+    "declared_k": {
+     "EFFECTIVE": 956,
+     "EFFECTIVE_PARTIAL": 26,
+     "UNRESOLVED": 18
+    },
+    "failed_rounds_k": 191,
+    "false_effective": 0.06,
+    "false_effective_ci": [
+     0.0469,
+     0.0765
+    ],
+    "false_effective_given_declared": 0.06109979633401222,
+    "false_effective_k": 60,
+    "mean_api_calls": 16.549,
+    "mean_exposure_min": 16.091854009624807,
+    "mean_log_queries": 22.938,
+    "mean_probes": 7.938,
+    "mean_rounds": 1.133,
+    "mean_snapshot_reads": 2.266,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2389.3,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 52,
+     "EFFECTIVE_PARTIAL": 26,
+     "UNRESOLVED": 18
+    },
+    "residual_k": 96,
+    "stops_k": 230
+   },
+   "A2_sel_apiack": {
+    "approvals_k": 21,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 976,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.294,
+    "false_effective_ci": [
+     0.2666,
+     0.323
+    ],
+    "false_effective_given_declared": 0.3012295081967213,
+    "false_effective_k": 294,
+    "mean_api_calls": 14.34,
+    "mean_exposure_min": 38.77066926145451,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 294,
+     "UNRESOLVED": 24
+    },
+    "residual_k": 318,
+    "stops_k": 18
+   },
+   "B2_SG_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.733,
+    "false_effective_ci": [
+     0.7047,
+     0.7595
+    ],
+    "false_effective_given_declared": 0.733,
+    "false_effective_k": 733,
+    "mean_api_calls": 1.0,
+    "mean_exposure_min": 84.61380547298478,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 733
+    },
+    "residual_k": 733,
+    "stops_k": 0
+   },
+   "B5_SG_NACLdual_apiack": {
+    "approvals_k": 0,
+    "avoidable_stops_k": 0,
+    "declared_effective_any_k": 1000,
+    "declared_k": {
+     "EFFECTIVE": 1000
+    },
+    "failed_rounds_k": 0,
+    "false_effective": 0.319,
+    "false_effective_ci": [
+     0.2909,
+     0.3485
+    ],
+    "false_effective_given_declared": 0.319,
+    "false_effective_k": 319,
+    "mean_api_calls": 8.854,
+    "mean_exposure_min": 36.68680990407471,
+    "mean_log_queries": 0.0,
+    "mean_probes": 0.0,
+    "mean_rounds": 0.0,
+    "mean_snapshot_reads": 0.0,
+    "median_t_effective_s": 2.0,
+    "n": 1000,
+    "p95_t_effective_s": 2.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 319
+    },
+    "residual_k": 319,
+    "stops_k": 0
+   },
+   "FULL": {
+    "approvals_k": 314,
+    "avoidable_stops_k": 11,
+    "declared_effective_any_k": 976,
+    "declared_k": {
+     "EFFECTIVE": 934,
+     "EFFECTIVE_PARTIAL": 42,
+     "UNRESOLVED": 24
+    },
+    "failed_rounds_k": 6,
+    "false_effective": 0.001,
+    "false_effective_ci": [
+     0.0002,
+     0.0056
+    ],
+    "false_effective_given_declared": 0.0010245901639344263,
+    "false_effective_k": 1,
+    "mean_api_calls": 15.292,
+    "mean_exposure_min": 14.0170564067664,
+    "mean_log_queries": 21.886,
+    "mean_probes": 6.317,
+    "mean_rounds": 0.998,
+    "mean_snapshot_reads": 1.996,
+    "median_t_effective_s": 668.0,
+    "n": 1000,
+    "p95_t_effective_s": 2468.0,
+    "residual_by_declared_k": {
+     "EFFECTIVE": 1,
+     "EFFECTIVE_PARTIAL": 40,
+     "UNRESOLVED": 23
+    },
+    "residual_k": 64,
+    "stops_k": 269
+   },
+   "value": 1.0
+  }
+ ]
+}

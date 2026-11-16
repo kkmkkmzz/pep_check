@@ -1,0 +1,46 @@
+{
+ "A1_nosel_verify": {
+  "false_effective_k": 103,
+  "mean_exposure_min": 31.552875068090938,
+  "n": 2000,
+  "residual_k": 465,
+  "table_k": {
+   "CONTAIN/EFFECTIVE": 1615,
+   "CONTAIN/EFFECTIVE_PARTIAL": 66,
+   "CONTAIN/UNRESOLVED": 15,
+   "HOLD/not contained": 304
+  }
+ },
+ "B2_SG_apiack": {
+  "false_effective_k": 1256,
+  "mean_exposure_min": 90.82056321127888,
+  "n": 2000,
+  "residual_k": 1560,
+  "table_k": {
+   "CONTAIN/EFFECTIVE": 1696,
+   "HOLD/not contained": 304
+  }
+ },
+ "B5_SG_NACLdual_apiack": {
+  "false_effective_k": 553,
+  "mean_exposure_min": 49.83158263168609,
+  "n": 2000,
+  "residual_k": 857,
+  "table_k": {
+   "CONTAIN/EFFECTIVE": 1696,
+   "HOLD/not contained": 304
+  }
+ },
+ "FULL": {
+  "false_effective_k": 1,
+  "mean_exposure_min": 29.89308909907208,
+  "n": 2000,
+  "residual_k": 411,
+  "table_k": {
+   "CONTAIN/EFFECTIVE": 1572,
+   "CONTAIN/EFFECTIVE_PARTIAL": 85,
+   "CONTAIN/UNRESOLVED": 39,
+   "HOLD/not contained": 304
+  }
+ }
+}
