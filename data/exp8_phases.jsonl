@@ -1,0 +1,9 @@
+{"phase":"r1_SG_iso","t_start":1794360943.07,"t_done":1794360944.61}
+{"phase":"r1_NACL_deny","t_sg_restore":1794361198.68,"t_start":1794361200.30,"t_done":1794361201.38}
+{"phase":"r2_baseline","t_start":1794361451.23,"t_done":1794361452.61}
+{"phase":"r2_SG_iso","t_start":1794361615.18,"t_done":1794361616.83}
+{"phase":"r2_NACL_deny","t_sg_restore":1794361864.58,"t_start":1794361866.04,"t_done":1794361867.27}
+{"phase":"r3_baseline","t_start":1794362114.91,"t_done":1794362116.24}
+{"phase":"r3_SG_iso","t_start":1794362278.41,"t_done":1794362279.92}
+{"phase":"r3_NACL_deny","t_sg_restore":1794362530.78,"t_start":1794362532.33,"t_done":1794362533.55}
+{"phase":"end_NACL_removed","t_start":1794362784.92,"t_done":1794362786.02}

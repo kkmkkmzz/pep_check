@@ -21,16 +21,14 @@ Until these are added, the code-availability statement of the manuscript is not 
 | `aws/a2_batch_template.py` | Lambda-style batch reader for delivered flow-log objects, 72-hour delivery-delay measurement (EXP-007) |
 | `aws/a2_analyze_sandbox.py` | Analysis of delivered flow-log objects inside the provider's scripting sandbox (EXP-007) |
 | `aws/a2_merge.py` | Merges per-batch outputs into the 72-hour summary |
-| `aws/A1_scripts_bundle.txt` | Traffic agent, control template and analysis scripts of the first live run (EXP-006) |
-| `data/a1_flowlog_result_final.json` | Flow-record classification of the first live run (EXP-006) |
-| `data/a1_console_result.json` | Console-output aggregates of the first live run (EXP-006) |
 | `data/a2_result_72h.json` | 72-hour delivery-delay aggregates, Seoul and Northern Virginia (EXP-007) |
 | `data/exp8_phases.jsonl` | Phase timestamps of the repeated attribution run (EXP-008) |
-| `notes/` | Measurement records written during the experiments |
+
+Not yet included: the traffic agent, control template and analysis scripts of the first live run (EXP-006), and its flow-record and console-output aggregates. These contain resource identifiers in their code and need a separate redaction pass before they are added.
 
 ## Redaction
 
-Account identifiers, resource identifiers (instances, network interfaces, security groups, network ACLs, route tables, network insights), and storage bucket names of the measurement account were replaced by placeholders such as `<ACCOUNT_ID>` and `<BUCKET>`. Raw flow-log objects and raw console dumps are not included. The redaction was checked with a pattern search before publication; see the commit history for the state of each file.
+Account identifiers, flow-log identifiers and storage bucket names of the measurement account were replaced by placeholders such as `<ACCOUNT_ID>`, `<FLOW_LOG_ID>` and `<BUCKET_SEOUL>`. Raw flow-log objects and raw console dumps are not included. Scripts that reference buckets must be given the real names at run time. Each published file was checked with a pattern search for account numbers, resource identifiers and bucket names before the commit.
 
 ## Live measurements
 
